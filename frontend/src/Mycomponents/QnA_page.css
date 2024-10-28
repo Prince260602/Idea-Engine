@@ -1,0 +1,380 @@
+.pro-algin {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  /* background-color: #222; */
+  border-radius: 4px;
+  font-weight: 300;
+  float: right;
+}
+
+.mydivider {
+  height: 0.5px;
+  width: 100%;
+  border: 1px solid #222;
+  border-radius: 12px;
+}
+
+.qna-free {
+  color: #fff;
+  background-color: #393939;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 4px;
+  padding: 6px 16px;
+  font-weight: 400;
+}
+
+.qna-pro {
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+  color: #ccc;
+  border-radius: 4px;
+  padding: 6px 16px;
+  font-weight: 400;
+}
+
+.qna-header {
+  top: 0;
+  height: 100vh;
+  width: 250px;
+  display: flex;
+  position: fixed;
+  /* align-items: center; */
+  flex-direction: column;
+  background: #121212;
+  color: white;
+  /* z-index: 1; */
+  right: 0;
+  overflow-x: hidden;
+  padding: 15px 0;
+  border-left: 8px solid black;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.logo {
+  width: 26px;
+  height: 26px;
+  min-width: 26px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.bussiness {
+  width: 80%;
+  display: flex;
+  position: relative;
+  gap: 24px;
+  color: #ddd;
+  padding: 32px 20px;
+  white-space: pre-line;
+  /* justify-content: center; */
+}
+.res {
+  margin-left: 140px;
+}
+
+.qna-box {
+  background-color: #121212;
+  width: 80%;
+  /* display: flex; */
+  position: relative;
+  /* gap: 10px; */
+  color: #ddd;
+  padding: 32px 100px;
+  /* white-space: pre-line; */
+  margin: 1rem;
+  text-align: center;
+}
+.qna-border {
+  cursor: pointer;
+  overflow: hidden;
+  margin-top: 10px;
+  background: #121212;
+  border-radius: 6px;
+  border: 1px solid #393939;
+
+  padding: 12px 0;
+  text-align: center;
+}
+.qna-text {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  color: #ccc;
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.cards-group {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  padding: 24px;
+}
+.stp-title {
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  color: #999;
+  text-overflow: ellipsis;
+}
+.step-group {
+  display: flex;
+  position: relative;
+  gap: 5px;
+  flex-direction: column;
+}
+.line {
+  z-index: 0;
+  top: 14px;
+  width: 2px;
+  left: 5.5px;
+  bottom: 14px;
+  display: block;
+  position: absolute;
+  border-right: 2px dotted #999;
+}
+.step {
+  z-index: 1;
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+.circle {
+  display: block;
+  min-width: 14px;
+  min-height: 14px;
+  max-width: 14px;
+  max-height: 14px;
+  background: #999;
+  border-radius: 50%;
+}
+.text {
+  color: #999;
+
+  overflow: hidden;
+  font-size: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.company-group {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: small;
+  margin-top: auto;
+  gap: -2px;
+  color: #999;
+}
+.digital-text {
+  cursor: pointer;
+  font-size: 1rem;
+  color: #f6f6f6;
+  border-radius: 6px;
+  border: 1px solid #666;
+  padding: 12px 16px;
+  position: relative;
+}
+
+.digital-text p {
+  margin-bottom: 0;
+}
+
+.blueprint--container {
+  /* display: flex; */
+  justify-content: center;
+}
+
+.main-btn {
+  display: flex;
+  /* flex-direction: row; */
+  gap: 12px;
+  align-items: center;
+  background-color: #292929;
+  color: white;
+  height: 48px;
+  /* overflow: hidden; */
+  font-size: 1rem;
+  border-radius: 7px;
+  border: 1px solid #292929;
+  padding-left: 16px;
+}
+
+.q-header-class {
+  border-right: 8px solid #000;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 268px;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  background: #121212;
+  color: white;
+  /* z-index: 1; */
+  position: fixed;
+  left: 0;
+  overflow-x: hidden;
+  /* padding: 15px;  */
+}
+
+.logo1 {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 20px;
+  gap: 8px;
+  /* padding-bottom: 0; */
+}
+
+.logo1 p {
+  flex: 1;
+  font-weight: 500;
+  font-size: 2.25rem;
+  text-align: center;
+  color: #ddd;
+}
+
+.row {
+  justify-content: center;
+}
+
+.q-delete {
+  width: 100%;
+  border-top: 1px solid #292929 !important;
+  padding: 30px 24px;
+  display: flex;
+  min-height: 48px;
+  font-size: 1rem;
+  height: max-content;
+  align-items: center;
+  gap: 16px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.blue {
+  display: flex;
+  color: #fff;
+  width: 100vw;
+  background-color: black;
+  height: 80px;
+  top: 0px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+@media only screen and (min-width: 576px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #121212;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #555;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #222;
+  }
+}
+
+.input-field {
+  width: 81%;
+  display: flex;
+  min-height: 48px;
+  gap: 12px;
+  align-items: center;
+  /* text-align: center; */
+  padding: 16;
+  background: #222;
+  border-radius: 8px;
+  border: 1px solid #393939;
+  box-shadow: 0 0 8px 4px rgba(32, 33, 35, 0.1);
+  color: #fff;
+  /* margin-left: 80px; */
+}
+.input--field::after {
+  /* display:grid; */
+  justify-content: center;
+  position: fixed;
+  bottom: 30px;
+  /* content: "";
+    display: table;
+    clear: both; */
+  display: flex;
+  flex-direction: column; /* or row, depending on your layout */
+  align-items: stretch;
+}
+body {
+  overflow-x: hidden;
+}
+/* .input--field::after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+.input-field:focus {
+  box-shadow: none;
+  border-style: dotted;
+}
+input:focus {
+  box-shadow: none;
+  border-style: dotted;
+}
+.bottom-text {
+  font-size: large;
+
+  color: red;
+  /* margin: 12px; */
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  /* top: 610px; */
+}
+.bottom-position {
+  display: flex;
+
+  justify-content: center;
+}
+
+/* Responsive */
+@media screen and (max-width: 900px) {
+  .right-acc {
+    display: none;
+  }
+  .qna-box {
+    padding: 10px;
+  }
+  .left-acc {
+    display: none;
+  }
+}
+/* .radio_bor{
+    border-radius: 6px;
+    border: 1px solid #393939;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 10px;
+    color:#ccc
+} */
