@@ -31,7 +31,7 @@ const DivlayoutAuthPage = () => {
     e.preventDefault();
     try {
       const { name, email, password } = user;
-      const res = await fetch("https://idea-engine-backend-4gyo.vercel.app/api/v1/register", {
+      const res = await fetch("https://idea-engine.onrender.com/api/v1/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -76,7 +76,7 @@ const DivlayoutAuthPage = () => {
 
 
   const loginwithgoogle = () => {
-    window.open("https://idea-engine-backend-4gyo.vercel.app/auth/google/callback", "_self")
+    window.open("https://idea-engine.onrender.com/auth/google/callback", "_self")
   }
 
 

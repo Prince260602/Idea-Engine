@@ -30,7 +30,7 @@ const DivlayoutAuthPage = () => {
     setLogin(true)
     setPercent(prevPercent => prevPercent + 20);
 
-    const res = await fetch('https://idea-engine-backend-4gyo.vercel.app/api/v1/login', {
+    const res = await fetch('https://idea-engine.onrender.com/api/v1/login', {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -83,7 +83,7 @@ const DivlayoutAuthPage = () => {
     setLogin(true)
     e.preventDefault();
     try {
-      const res = await fetch('https://idea-engine-backend-4gyo.vercel.app/auth/google/callback', {
+      const res = await fetch('https://idea-engine.onrender.com/auth/google/callback', {
         method: "GET",
         mode: "no-cors"
       });
