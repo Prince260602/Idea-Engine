@@ -29,6 +29,12 @@ const server = app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
 
+app.get("/", (req, res) => {
+    res.status(200).json({ message: "Welcome to the API" });
+  });
+
+
+
 // Unhandled Promise Rejection
 process.on("unhandledRejection", (err) => {
     console.log(`Error: ${err.message}`);
